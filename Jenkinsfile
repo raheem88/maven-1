@@ -1,5 +1,5 @@
 
-node('mvn') {
+node('maven') {
 // Delete the workspace
 //deleteDir()
 stage('Retrieve source code') {
